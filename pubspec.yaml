@@ -1,0 +1,62 @@
+name: jawali_now
+description: "Jawali Futuristic Flutter App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI & Fonts
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.4.1
+
+  # Animations
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^16.0.0
+
+  # Glassmorphism & Blur
+  glassmorphism: ^3.0.0
+  blur: ^4.0.0
+
+  # Icons
+  lucide_icons_flutter: ^3.0.2
+
+  # Utility
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_launcher_icons: ^0.14.4
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/app_logo.png"
+  min_sdk_android: 21
